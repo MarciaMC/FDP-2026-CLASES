@@ -23,7 +23,7 @@ int main()
 
     case 2:
         if (dia >= 1 && dia <= 19)
-            cout << "su signo es acuario" << endl;
+            cout<< "su signo es acuario" << endl;
         else if (dia <= 28)
             cout << "su signo es piscis" << endl;
         else
@@ -113,11 +113,11 @@ int main()
 
     case 12:
         if (dia >= 1 && dia <= 21)
-            cout << "su signo es sagitario" << endl;
+            cout<< "su signo es sagitario" << endl;
         else if (dia <= 31)
-            cout << "su signo es capricornio" << endl;
+            cout<< "su signo es capricornio" << endl;
         else
-            cout << "ese dia no existe" << endl;
+            cout<< "ese dia no existe" << endl;
         break;
 
     default:
