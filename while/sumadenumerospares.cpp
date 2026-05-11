@@ -1,17 +1,21 @@
+```cpp
 #include <iostream>
 using namespace std;
-int main ()
-{
-    int num, i = 2, suma = 0;
-    cout << "ingrese un numero entero" << endl;
+
+int main() {
+    int num;
+    int suma = 0;
+
+    cout << "Ingrese numeros (0 para terminar): " << endl;
     cin >> num;
-    while (i <= num)
-    {
-        suma = suma + i
-     i=i+2;
+
+    while(num != 0) {
+        suma = suma + num;
+        cin >> num;
     }
-    cout << "la suma de los numeros pares es:" << endl;
-    suma<<endl;
+
+    cout << "La suma total es: " << suma;
 
     return 0;
 }
+```
