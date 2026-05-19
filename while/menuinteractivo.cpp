@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
     int opcion = 0;
-    while(opcion != 3)
+    while(opcion != -1)
     {
         cout<<"menu"<<endl;
         cout<<"1. saludar"<<endl;
@@ -13,7 +13,7 @@ int main (){
             cout<<"Hola!"<<endl; }
             else if(opcion == 2){
                 cout<<"como estas?"<<endl; }
-                else if(opcion ==3){
+                else if(opcion ==-1){
                     cout<<"saliendo del programa"<<endl;
                 } else { cout<<"opcion no valida"<<endl;}
 
