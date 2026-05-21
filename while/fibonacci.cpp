@@ -5,9 +5,9 @@ int main (){
     int actual = 1;
     int nuevo;
     int n;
+    int contador= 0;
     cout<<"digite un numero"<<endl;
     cin>>n;
-    int contador = 0;
     while(contador < n) {
     cout << actual <<endl;
  nuevo = anterior + actual;
