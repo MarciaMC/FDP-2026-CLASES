@@ -5,8 +5,8 @@ int main (){
         for(int w=6; w>i; w--)
     {
     cout<<" "; } 
-        for(int v=1; v<=i; v++) {
-            cout<<"**";
+        for(int v=1; v<=(2*i)-1; v++) {
+            cout<<"*";
     }
     cout<<endl; }
 
