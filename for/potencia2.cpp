@@ -8,8 +8,9 @@ int main()
     cout << "digite su numero exponente" << endl;
     cin >> exponente;
     for (int i = 0; i < exponente; i++)
-    {
-        resultado = resultado * base;
-    } cout << resultado;
+    {resultado=resultado *base;}
+        cout<<resultado;
+    
+    cout << resultado;
     return 0;
 }
