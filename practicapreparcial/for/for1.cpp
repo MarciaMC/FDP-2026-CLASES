@@ -5,7 +5,8 @@ int main (){
     for(int i=1;i<=50;i++) {
         if(i%2!=0) {
             suma=suma+i;
-        } }    
+        }
+     }  cout<<suma<<endl;
         
     
     return 0;
